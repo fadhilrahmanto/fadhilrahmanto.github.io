@@ -1,0 +1,22 @@
+.kategori {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 0.5fr));
+    gap: 10px;
+}
+
+.judul {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+
+/* 
+.content h2 {
+    grid-column: 1/-1;
+    text-align: center;
+} */
+
+.kategori table {
+    margin: 20px 50px 25px;
+    text-align: center;
+}

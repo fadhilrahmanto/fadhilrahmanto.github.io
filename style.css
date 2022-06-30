@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: 'oswald', Arial, Helvetica, sans-serif;
+}
+
+
+/* start container */
+
+.container {
+    display: grid;
+    gap: 10px;
+}
+
+.konten {
+    display: grid;
+    align-items: center;
+}
+
+
+/* finish container */
+
+
+/* start header */
+
+.headerr {
+    display: grid;
+    background-color: black;
+    color: white;
+}
+
+.wrapperr {
+    display: grid;
+    height: 2.5em;
+    margin: 0 50px;
+    grid-template-columns: 2fr auto;
+    align-items: center;
+}
+
+.headerr p {
+    color: white;
+}
+
+.headerr p a {
+    color: rgb(255, 255, 255);
+}
+
+.akun {
+    gap: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+
+.akun a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.akun a:hover {
+    background-color: wheat;
+    border-radius: 3px;
+    color: black;
+}
+
+
+/* finish header */
+
+
+/* start sub-header */
+
+.subb-headerr {
+    display: grid;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+
+.wrapperr-subb-headerr {
+    display: grid;
+    margin: 0 50px;
+    grid-template-columns: 0.7fr 2fr 0.7fr;
+    align-items: center;
+}
+
+.brandd {
+    font-size: 1em;
+    text-align: center;
+}
+
+.brandd h1 a {
+    color: rgb(104, 151, 204);
+    text-align: center;
+    text-decoration: none;
+}
+
+.carii {
+    width: fit-content;
+    height: fit-content;
+}
+
+.carii input {
+    height: 2em;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.carii button {
+    height: 2em;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+
+/* finish sub-header */
+
+
+/* navigasi */
+
+.menuu {
+    order: -1;
+    background-color: orange;
+    color: white;
+    display: grid;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.wrapperr-menuu {
+    display: grid;
+    margin: 0 50px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    height: 2em;
+}
+
+.listt-menuu {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 5px;
+}
+
+.listt-menuu a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 3px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    color: white;
+}
+
+.listt-menuu a:hover {
+    background-color: wheat;
+    border-radius: 5px;
+}
+
+
+/* end navigation */
+
+
+/* start sub-navigation */
+
+.sub-nav {
+    display: grid;
+    text-transform: capitalize;
+}
+
+.wrapper-sub-nav {
+    margin: 0 50px;
+    color: #ccc;
+}
+
+.wrapper-sub-nav a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+
+/* finish sub-navigation */
+
+
+/*start produk index */
+
+.content {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 20px 50px 25px;
+}
+
+
+/* 
+.content h2 {
+    grid-column: 1/-1;
+    text-align: center;
+} */
+
+.wrapper-content {
+    display: grid;
+    box-shadow: 0 0 2.5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.img {
+    overflow: hidden;
+    padding: 5px;
+    max-width: 300px;
+    height: 200px;
+}
+
+.img img {
+    max-height: 200px;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.keterangan ul {
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+}
+
+.nm-produk {
+    overflow: hidden;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nm-produk h4 {
+    display: block;
+}
+
+.harga {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.rinci {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    height: 2em;
+}
+
+.rinci a:nth-child(1) {
+    text-decoration: none;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 3px;
+}
+
+.rinci a:nth-child(2) {
+    text-decoration: none;
+    background-color: rgb(36, 240, 36);
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 3px;
+}
+
+
+/* finish produk index */
+
+
+/* start login */
+
+.container-login {
+    grid-column: 1/-1;
+    margin: 0 20% 5%;
+}
+
+.container-login h1 {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 4px solid #2979ff;
+}
+
+.masuk label {
+    text-align: left;
+    color: #000000;
+}
+
+.masuk form input {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #2979ff;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.masuk form button {
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    background-color: #2979ff;
+    font-size: 18px;
+    color: #fafafa;
+}
+
+.masuk input::placeholder {
+    color: #ccc;
+}
+
+.daftar {
+    grid-column: 1/-1;
+}
+
+.daftar p {
+    font-size: 16px;
+}
+
+.daftar a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+
+/* finish login */
+
+
+/* start sub produk */
+
+.sub-content {
+    display: grid;
+}
+
+.container-sub-content {
+    margin: 30%px 40%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.container-sub-content a {
+    text-decoration: none;
+    color: rgb(62, 139, 228);
+    border: 1px solid rgb(62, 139, 228);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.container-paging {
+    margin: 30%px 40%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.container-paging a {
+    text-decoration: none;
+    color: rgb(62, 139, 228);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+/* finish sub produk */
+
+
+/* finish detail produk */
+
+
+/* start kategori */
+
+
+/* finish kategori */
+
+
+/* start transaksi */
+
+.transaksi {
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
+    margin-bottom: 1em;
+    gap: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+
+.wrapper-transaksi {
+    margin: 0 50px;
+    margin-top: 1em;
+    display: grid;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin: 10px;
+}
+
+.detail-pembeli-2 {
+    grid-column: 1/-1;
+    margin-top: 1em;
+}
+
+.detail-pembeli-3 {
+    grid-column: 1/-1;
+    margin-top: 1em;
+}
+
+.img-trans {
+    max-width: 100%;
+    display: block;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.prdk-trans {
+    margin: 10px;
+}
+
+.total {
+    margin: 10px;
+}
+
+.detail-trans {
+    display: grid;
+    margin: 10px;
+    grid-column: 1/-1;
+    grid-template-columns: 2fr auto;
+}
+
+.lihat a {
+    color: blue;
+}
+
+.lihat a:hover {
+    background-color: wheat;
+    border-radius: 3px;
+    color: black;
+}
+
+
+/* finish transaksi */
+
+
+/* start footer */
+
+.footer {
+    display: grid;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.container-footer {
+    margin: 0 50px;
+    display: grid;
+    grid-template-columns: 30em 25em auto;
+    align-items: center;
+}
+
+.about {
+    margin: 25px 20% 25px;
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+.about p {
+    display: grid;
+    text-align: justify;
+}
+
+.footer a {
+    display: grid;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact {
+    display: grid;
+    font-size: 1em;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.Kategori-footer {
+    font-size: 1em;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Kategori-footer ul {
+    list-style: none;
+}
+
+.logo-footer {
+    max-width: fit-content;
+}
+
+
+/* finish footer */
+
+
+/* start responsive break point */
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 960px) {}
+
+@media (max-width: 800px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 720px) {}
+
+@media (max-width: 640px) {}
+
+
+/* finish responsive break point */
